@@ -1,4 +1,4 @@
-.App {
+/*.App {
   text-align: center;
 }
 
@@ -35,4 +35,38 @@
   to {
     transform: rotate(360deg);
   }
+}
+*/
+*{
+  margin: 0;
+  padding: 0;
+}
+.BarNav_container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1vh 1vw;
+  background-color: #00000080;
+  box-shadow: 5px 12px 8px #00000080;
+  height: 5vh;
+}
+.searchBar{
+  display: flex;
+  width: fit-content;
+  justify-content: center;
+  align-items: center;
+}
+.No_puce_list{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5vw;
+  width: 70vw;
+  list-style-type: none;
+}
+.rating, #defaultColor{
+  color: #333333;
+}
+#defaultColor{
+  display: none;
 }
